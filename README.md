@@ -20,6 +20,11 @@ NLDAS: https://www.hydroshare.org/resource/0a68bfd7ddf642a8be9041d60f40868c/
 Unzip/untar these and place the resulting `*_extended` directories in 
 `basin_dataset_public_v1p2/basin_mean_forcing'.
 
+Next, get the NeuralHydrology code from: https://github.com/grey-nearing/neuralhydrology-public
+Once this repository is cloned, link `~/neuralhyrology-public/neuralhydrology` in the working directory `~/lstm-data-assimilation`.
+Make sure that you are using the `assimilation` branch of this repository.
+
+-----------------------------------------------------------------------------------------
 
 The following steps recreate the experiments for the paper.
 
