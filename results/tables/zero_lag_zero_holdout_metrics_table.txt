@@ -1,0 +1,12 @@
+\begin{tabular}{lllll}
+\toprule
+{} & Simulation & AR 0.0 holdout & AR 0.5 holdout & Assimilation \\
+\midrule
+NSE         &      0.796 &          0.879 &          0.872 &        0.862 \\
+KGE         &      0.795 &          0.896 &          0.896 &        0.878 \\
+Alpha-NSE   &      0.874 &          0.942 &          0.945 &        0.913 \\
+Pearson-r   &      0.902 &          0.939 &          0.937 &        0.932 \\
+Beta-NSE    &     -0.027 &         -0.007 &         -0.002 &       -0.014 \\
+Peak-Timing &      0.263 &          0.385 &          0.368 &        0.444 \\
+\bottomrule
+\end{tabular}
